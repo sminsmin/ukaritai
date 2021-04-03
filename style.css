@@ -1,0 +1,188 @@
+@charset "UTF-8";
+html {
+    font-size: 16px;
+}
+html, body {
+    height: 100%;
+}
+body *, ::before, ::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Osaka－等幅',　和文フォント;
+    font-weight: 400;
+    color: #000;
+}
+body a{
+  text-decoration: none;
+}
+.header{
+    height: 70px;
+    background-color: black;
+}
+.header h1{
+  margin-top: -2.76px;
+  margin-bottom: -24px;  
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}
+
+.box{
+    display: inline-block;
+    font-size: 16px;
+    max-width: 45%;
+}
+  
+.boxContainer{
+    font-size: 0;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.box{
+    padding-right: 30px;
+    min-width: 50%;
+}
+h3 {
+    font-size: 10px;
+    font-size: 30px;
+    position: relative;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+h3 span {
+    font-size: 8px;
+    font-size: 16px;
+    display: block;
+
+  }
+  
+  h3:before {
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 5px;
+    content: '';
+
+  }
+  .box3 {
+      text-align: left;
+  }
+  .box3 span{
+    position: relative;
+    display: inline-block;
+    padding: 4px 30px 4px 40px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    color: #fff;
+
+  }
+  
+  .box3 span:before {
+    position: absolute;
+    top: calc(50% - 7px);
+    left: 10px;
+    width: 14px;
+    height: 14px;
+    content: '';
+    border-radius: 50%;
+    background: #fff;
+  }
+.boxContainer2{
+    background-color: lightgray;
+    padding-bottom: 24px;
+}
+.nav-list {
+    line-height: 100px;
+    list-style: none;
+    font-weight: bold;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ul.footer-menu li {
+display: inline;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    transition: color .5s;
+}
+a:hover{
+    color:pink;
+}
+.box2{
+    border-right: 8px solid tomato;
+}
+ul {
+    padding: 0;
+    position: relative;
+  }
+  
+  ul li {
+    color: black;
+    background: white;
+    line-height: 1.5;
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin-bottom: 4px;
+    list-style-type: none!important;
+    font-weight: bold; /*好みで太字に*/
+  }
+  
+  ul li:before {
+ 
+    position: absolute;
+    left : 0.5em; /*左端からのアイコンまでの距離*/
+    color: white; /*アイコン色*/
+  }
+  .news{
+      margin-right: 12px;
+      margin-left: 12px;
+      padding: 1em;
+      margin: 2em auto;
+      width:100%;
+      color: white;
+      background-image: url(images/cafe.jpeg);
+      border-top: solid 5px #9b0000;
+      border-bottom: solid 5px #9b0000;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  }
+  .news h2{
+      text-align: center;
+      font-size: 32px;
+  }
+  .orange{
+      color: orange;
+  }
+  .green{
+      color: paleturquoise;
+  }
+  .red{
+      color: rgb(248, 74, 6);
+  }
+  .blue{
+      color: rgb(18, 125, 247);
+  }
+  .pink{
+      color: rgb(250, 92, 224);
+  }
+  .gray{
+    background-color: lightgray;
+  }
